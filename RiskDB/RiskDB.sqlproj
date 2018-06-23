@@ -125,7 +125,7 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\Tables\GameRoom.sql">
+    <Build Include="dbo\Tables\UserGameRoom.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
@@ -167,9 +167,23 @@
     </Build>
     <Build Include="Service Broker\SqlQueryNotificationService-7040dcb5-5610-4c5f-bda7-79b589476b35.sql" />
     <Build Include="Service Broker\SqlQueryNotificationService-7040dcb5-5610-4c5f-bda7-79b589476b35_1.sql" />
-    <Build Include="dbo\Tables\UserGameRoom.sql">
+    <Build Include="dbo\Tables\GameRoom.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Tables\UserGameBattleLog.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\UserGameRisk.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SqlSchemaCompareRisk.scmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="RiskDB.refactorlog" />
   </ItemGroup>
 </Project>

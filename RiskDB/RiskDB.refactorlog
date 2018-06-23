@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6f76eae8-38f7-4e98-bf4d-6a769787a75a" ChangeDateTime="05/19/2018 10:01:57">
+    <Property Name="ElementName" Value="[dbo].[Users].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AspNetUserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1926bc9-1f63-4bb1-9bc4-c369c67791bc" ChangeDateTime="06/23/2018 16:21:12">
+    <Property Name="ElementName" Value="[dbo].[UserGameBattleLog].[UserGameBattleLogId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameBattleLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserGameRiskId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e79524c6-72c1-42c8-81ce-1e6fdf05af4b" ChangeDateTime="06/23/2018 16:21:17">
+    <Property Name="ElementName" Value="[dbo].[UserGameBattleLog].[GameBattleId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameBattleLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RiskId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5a91c2d0-b51f-4a62-bf64-4737280b7568" ChangeDateTime="06/23/2018 16:21:22">
+    <Property Name="ElementName" Value="[dbo].[UserGameBattleLog].[GameRoomId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameBattleLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OptionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6ac89d21-8d3c-47d4-b188-9bede03dde39" ChangeDateTime="06/23/2018 16:21:52">
+    <Property Name="ElementName" Value="[dbo].[UserGameBattleLog].[Turn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameBattleLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GameRoomId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4983ee0e-c3cc-4da1-afd1-562facbbfda6" ChangeDateTime="06/23/2018 16:22:01">
+    <Property Name="ElementName" Value="[dbo].[UserGameBattleLog].[Money]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameBattleLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Turn" />
+  </Operation>
+</Operations>
