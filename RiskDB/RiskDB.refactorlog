@@ -49,4 +49,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="RiskOptionId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="5d540c61-7547-4bfe-a563-59fda9d2e426" ChangeDateTime="04/02/2019 18:01:02">
+    <Property Name="ElementName" Value="[dbo].[MarketOption].[MarketOptionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MarketOption]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserMarketTrasactionId" />
+  </Operation>
 </Operations>

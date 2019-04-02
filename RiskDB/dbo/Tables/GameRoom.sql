@@ -11,8 +11,10 @@ SoftwareType  [int] not NULL,
 StartDate DateTime NULL,
 [EndDate] DATETIME NULL,
 [CreateDate] DATETIME NULL,
-UserId [int] Not NULL,
-Active [bit] NULL,
+UserId INT NOT NULL,
+Active BIT NULL,
+[GameRound] INT NOT NULL,
+[GoalValue] INT NULL
 
 CONSTRAINT [PK_GameRoom] PRIMARY KEY CLUSTERED ([GameRoomId] ASC),
 CONSTRAINT [FK_GameRoom_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([UserId]),

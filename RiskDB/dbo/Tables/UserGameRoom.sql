@@ -10,7 +10,8 @@ JobType [int] NULL,
 [TeamValue] [int] not Null,
 JoinDate DATETIME NULL,
 Active [bit] NULL,
-GameFinished [bit] NULL
+GameFinished [bit] NULL,
+[ImageUrl] NVARCHAR(MAX) NULL
 
 CONSTRAINT [PK_UserGameRoom] PRIMARY KEY CLUSTERED ([UserGameRoomId] ASC),
 CONSTRAINT [FK_UserGameRoom_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([UserId]),
