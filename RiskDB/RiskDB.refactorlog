@@ -42,4 +42,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Turn" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6fcb86c4-70d3-470a-bd96-125e40084e39" ChangeDateTime="06/26/2018 17:28:54">
+    <Property Name="ElementName" Value="[dbo].[UserGameRisk].[OptionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserGameRisk]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RiskOptionId" />
+  </Operation>
 </Operations>
