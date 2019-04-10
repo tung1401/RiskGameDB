@@ -14,7 +14,8 @@ StartDate DateTime NULL,
 UserId INT NOT NULL,
 Active BIT NULL,
 [GameRound] INT NOT NULL,
-[GoalValue] INT NULL
+[GoalValue] INT NULL,
+[IncludeBot] BIT NULL,
 
 CONSTRAINT [PK_GameRoom] PRIMARY KEY CLUSTERED ([GameRoomId] ASC),
 CONSTRAINT [FK_GameRoom_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([UserId]),
