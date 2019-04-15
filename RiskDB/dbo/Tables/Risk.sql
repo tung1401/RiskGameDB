@@ -4,6 +4,9 @@
     [RiskDetail]       NVARCHAR (MAX) NULL,
     [RiskType]         INT            NULL,
     [ExpertSuggestion] INT            NULL,
+    [RiskProbability]  INT NULL, 
+    [RiskImpact]	   INT NULL, 
+
     CONSTRAINT [PK_Risk] PRIMARY KEY CLUSTERED ([RiskId] ASC)
 );
 

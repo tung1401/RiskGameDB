@@ -6,6 +6,8 @@
     [ActionEffectValue] INT NULL,
     [RiskImpact]        INT NULL,
     [RiskPorture]       INT NULL,
+	[RiskImageUrl]      NVARCHAR (MAX) NULL,
+
     CONSTRAINT [PK_RiskOption] PRIMARY KEY CLUSTERED ([RiskOptionId] ASC),
     CONSTRAINT [FK_RiskOption_Risk] FOREIGN KEY ([RiskId]) REFERENCES [dbo].[Risk] ([RiskId])
 );
